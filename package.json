@@ -1,0 +1,37 @@
+{
+  "name": "twitterboa",
+  "version": "1.0.0",
+  "description": "😁😁😁",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madebyFilm/twitterboa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madebyFilm/twitterboa/issues"
+  },
+  "homepage": "https://github.com/madebyFilm/twitterboa#readme",
+  "devDependencies": {
+    "@types/node": "^16.3.3",
+    "@types/node-fetch": "^2.5.11",
+    "@types/twitter": "^1.7.1",
+    "tsc-node": "^0.0.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "date-fns": "^2.22.1",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^10.1.0",
+    "twitter": "^1.7.1"
+  }
+}
