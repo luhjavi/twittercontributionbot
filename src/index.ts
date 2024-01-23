@@ -15,7 +15,7 @@ const client = new Twitter({
 
 });
 
-const GITHUHB_URL = "https://github.com/users/madebyFilm/contributions?from=2021-01-01"
+const GITHUHB_URL = "https://github.com/users/YourUsernameHere/contributions?from=2021-01-01"
 async function grabGithubData(): Promise<string> {
 
     const browser = await puppeteet.launch();
@@ -35,7 +35,7 @@ async function grabGithubData(): Promise<string> {
 
 async function base(){
     const githubData = await grabGithubData();
-    const url = `https://ixfilm.xyz/discord`
+    const url = `SetAnyLinkHere`
 
     const params = {
         location: githubData,
